@@ -1,0 +1,44 @@
+.header-content {
+  background-image: url(../../assets/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 0px 100px;
+  align-items: center;
+  .header-box {
+    width: 643px;
+    height: 443px;
+    background-color: rgba(255, 243, 227, 1);
+    border-radius: 10px;
+    padding: 20px 40px;
+    .box-content {
+      h1 {
+        font-size: 46px;
+        color: #b88e2f;
+        line-height: 55px;
+      }
+      p {
+        letter-spacing: 3px;
+      }
+      button {
+        padding: 25px 72px;
+        background-color: rgba(184, 142, 47, 1);
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover {
+          background-color: rgba(236, 165, 23, 0.696);
+        }
+      }
+    }
+  }
+}

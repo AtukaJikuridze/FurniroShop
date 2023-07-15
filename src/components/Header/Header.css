@@ -1,0 +1,42 @@
+.header-content {
+  background-image: url(../../assets/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 0px 100px;
+  align-items: center;
+}
+.header-content .header-box {
+  width: 643px;
+  height: 443px;
+  background-color: rgb(255, 243, 227);
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+.header-content .header-box .box-content h1 {
+  font-size: 46px;
+  color: #b88e2f;
+  line-height: 55px;
+}
+.header-content .header-box .box-content p {
+  letter-spacing: 3px;
+}
+.header-content .header-box .box-content button {
+  padding: 25px 72px;
+  background-color: rgb(184, 142, 47);
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.header-content .header-box .box-content button:hover {
+  background-color: rgba(236, 165, 23, 0.696);
+}/*# sourceMappingURL=Header.css.map */
