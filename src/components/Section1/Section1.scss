@@ -1,0 +1,28 @@
+.section1 {
+  .section1-header-text {
+    text-align: center;
+    padding: 50px 0px;
+    p,
+    h2 {
+      line-height: 0.7;
+    }
+  }
+  .section1-cards {
+    display: flex;
+    gap: 50px;
+
+    .section1-card {
+      text-align: center;
+      img {
+        width: 100%;
+        border-radius: 10px;
+        height: 560px;
+        transition: 0.2s;
+        cursor: pointer;
+        &:hover {
+          filter: brightness(80%);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.section1 .section1-header-text {
+  text-align: center;
+  padding: 50px 0px;
+}
+.section1 .section1-header-text p,
+.section1 .section1-header-text h2 {
+  line-height: 0.7;
+}
+.section1 .section1-cards {
+  display: flex;
+  gap: 50px;
+}
+.section1 .section1-cards .section1-card {
+  text-align: center;
+}
+.section1 .section1-cards .section1-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 560px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.section1 .section1-cards .section1-card img:hover {
+  filter: brightness(80%);
+}/*# sourceMappingURL=Section1.css.map */
