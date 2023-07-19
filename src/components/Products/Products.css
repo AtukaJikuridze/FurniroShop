@@ -1,0 +1,98 @@
+.products-main h1 {
+  padding: 50px 0px;
+  text-align: center;
+}
+.products-main .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px 0px;
+}
+.products-main .products .product {
+  width: 24%;
+  height: 480px;
+  background-color: #f4f5f7;
+  position: relative;
+}
+.products-main .products .product img.product-image {
+  width: 100%;
+  height: 330px;
+}
+.products-main .products .product .product-info {
+  padding: 10px;
+}
+.products-main .products .product .product-info h3,
+.products-main .products .product .product-info h4,
+.products-main .products .product .product-info p {
+  line-height: 0.4;
+}
+.products-main .products .product .product-info .prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.products-main .products .product .product-info .prices p {
+  text-decoration: line-through;
+}
+.products-main .products .product .after-hover {
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products-main .products .product .after-hover button {
+  width: 202px;
+  height: 48px;
+  color: #b88e2f;
+  font-family: Poppins;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+}
+.products-main .products .product .after-hover button:active {
+  background-color: #dedede;
+}
+.products-main .products .product .after-hover .other-fnc {
+  transform: translateY(20px);
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.products-main .products .product .after-hover .other-fnc .fnc {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.products-main .products .product .after-hover .other-fnc .fnc p {
+  color: #fff;
+}
+.products-main .products .product:hover .after-hover {
+  opacity: 1;
+  background-color: rgba(58, 58, 58, 0.6352941176);
+}
+
+@media screen and (max-width: 1400px) {
+  .products-main .products {
+    gap: 20px;
+  }
+  .products-main .products .product {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .products-main .products {
+    gap: 20px;
+  }
+  .products-main .products .product {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Products.css.map */

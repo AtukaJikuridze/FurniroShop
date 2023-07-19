@@ -1,0 +1,109 @@
+.products-main {
+  h1 {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px 0px;
+
+    .product {
+      width: 24%;
+      height: 480px;
+      background-color: #f4f5f7;
+      position: relative;
+
+      img.product-image {
+        width: 100%;
+        height: 330px;
+      }
+      .product-info {
+        padding: 10px;
+        h3,
+        h4,
+        p {
+          line-height: 0.4;
+        }
+        .prices {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          p {
+            text-decoration: line-through;
+          }
+        }
+      }
+      .after-hover {
+        opacity: 0;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        transition: 0.2s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+          width: 202px;
+          height: 48px;
+          color: #b88e2f;
+          font-family: Poppins;
+          background-color: #fff;
+          outline: none;
+          cursor: pointer;
+          border: 0;
+          &:active {
+            background-color: #dedede;
+          }
+        }
+        .other-fnc {
+          transform: translateY(20px);
+          gap: 20px;
+          display: flex;
+          justify-content: space-between;
+          .fnc {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            p {
+              color: #fff;
+            }
+          }
+        }
+      }
+      &:hover {
+        .after-hover {
+          opacity: 1;
+          background-color: #3a3a3aa2;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .products-main {
+    .products {
+      gap: 20px;
+      .product {
+        width: 48%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .products-main {
+    .products {
+      gap: 20px;
+      .product {
+        width: 100%;
+      }
+    }
+  }
+}
