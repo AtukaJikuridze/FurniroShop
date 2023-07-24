@@ -1,0 +1,37 @@
+footer {
+  padding: 50px 0px;
+}
+footer .footer-content .infos {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-content .infos .title {
+  margin-bottom: 30px;
+  color: #9f9f9f;
+}
+footer .footer-content .infos p {
+  margin-bottom: 10px;
+  color: black;
+}
+footer .footer-content .infos label input {
+  border: none;
+  margin-right: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+footer .footer-content .infos label input:nth-child(2) {
+  cursor: pointer;
+}
+footer .footer-content .infos label input:nth-child(1) {
+  width: 200px;
+  font-size: 14px;
+}
+footer .footer-content .infos h4 {
+  font-size: 25px;
+}
+footer .footer-content .infos .description {
+  margin-top: 40px;
+  width: 250px;
+  color: gray;
+}/*# sourceMappingURL=Footer.css.map */

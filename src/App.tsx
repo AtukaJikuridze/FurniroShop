@@ -1,5 +1,11 @@
 import "./App.css";
-import { Header, Section1, Products, Section3 } from "./components/index.js";
+import {
+  Header,
+  Section1,
+  Products,
+  Section3,
+  Footer,
+} from "./components/index.js";
 
 function App() {
   return (
@@ -8,6 +14,7 @@ function App() {
       <Section1 />
       <Products />
       <Section3 />
+      <Footer />
     </>
   );
 }

@@ -11,7 +11,9 @@ export default function Section3Rightisde() {
         <img src={Section3API[currentImage].image} alt="" />
         {currentImage !== Section3API.length - 1 ? (
           <img src={Section3API[currentImage + 1].image} alt="" />
-        ) : null}
+        ) : (
+          <img src={Section3API[0].image} alt="" />
+        )}
       </>
     );
   };
