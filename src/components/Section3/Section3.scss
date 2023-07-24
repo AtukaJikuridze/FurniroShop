@@ -1,0 +1,13 @@
+.section3 {
+  background: #f4ece3;
+  padding: 100px 0px;
+  margin: 100px 0px;
+  .section3-main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .s3-component {
+      width: 33%;
+    }
+  }
+}

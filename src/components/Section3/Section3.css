@@ -1,0 +1,13 @@
+.section3 {
+  background: #f4ece3;
+  padding: 100px 0px;
+  margin: 100px 0px;
+}
+.section3 .section3-main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.section3 .section3-main .s3-component {
+  width: 33%;
+}/*# sourceMappingURL=Section3.css.map */

@@ -1,0 +1,104 @@
+.s3-component.section3-leftside p {
+  margin: 10px 0px 25px 0px;
+  width: 300px;
+}
+.s3-component.section3-leftside button {
+  width: 176px;
+  height: 48px;
+  background-color: #b88e2f;
+  border: 0px;
+  transition: 0.3s;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+.s3-component.section3-leftside button:hover {
+  background-color: #c2ad7b;
+}
+.s3-component.section3-middleside {
+  background-image: url(../../../assets/section3//middle-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 582px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  padding: 30px;
+}
+.s3-component.section3-middleside .middleside-textbox {
+  background-color: rgba(255, 255, 255, 0.72);
+  width: 217px;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+.s3-component.section3-middleside .middleside-textbox::before {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #b88e2f;
+  right: -48px;
+  bottom: 0px;
+  background-image: url(../../../assets//icons/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.s3-component.section3-rightside {
+  overflow: hidden;
+  position: relative;
+}
+.s3-component.section3-rightside .images {
+  display: flex;
+  gap: 20px;
+}
+.s3-component.section3-rightside .images img {
+  width: 372px;
+  height: 486px;
+}
+.s3-component.section3-rightside .dots {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.s3-component.section3-rightside .dots .dot-main {
+  cursor: pointer;
+  padding: 3px;
+}
+.s3-component.section3-rightside .dots .dot-main .dot {
+  width: 11px;
+  background-color: #d8d8d8;
+  height: 11px;
+  border-radius: 50%;
+}
+.s3-component.section3-rightside .dots .dot-main.active {
+  border: 2px solid rgb(184, 142, 47);
+  border-radius: 50%;
+}
+.s3-component.section3-rightside .dots .dot-main.active .dot {
+  background-color: rgb(184, 142, 47);
+}
+.s3-component.section3-rightside .dots .dot-main.active::before {
+  border: 1px solid red;
+}
+.s3-component.section3-rightside .arrow-right {
+  position: absolute;
+  background-color: #fff;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.16));
+}/*# sourceMappingURL=Section3Context.css.map */

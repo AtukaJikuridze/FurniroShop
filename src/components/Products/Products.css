@@ -21,10 +21,8 @@
 .products-main .products .product .product-info {
   padding: 10px;
 }
-.products-main .products .product .product-info h3,
-.products-main .products .product .product-info h4,
 .products-main .products .product .product-info p {
-  line-height: 0.4;
+  margin: 5px 0px;
 }
 .products-main .products .product .product-info .prices {
   display: flex;

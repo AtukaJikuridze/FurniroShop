@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Section1, Products } from "./components/index.js";
+import { Header, Section1, Products, Section3 } from "./components/index.js";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Header />
       <Section1 />
       <Products />
+      <Section3 />
     </>
   );
 }
