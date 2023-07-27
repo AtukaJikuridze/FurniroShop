@@ -4,9 +4,19 @@ import search from "../../../assets/icons/search.png";
 import cart from "../../../assets/icons/cart.png";
 import profile from "../../../assets/icons/profile.png";
 import heart from "../../../assets/icons/heart.png";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { useState } from "react";
+
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
   return (
-    <nav>
+    <nav className={`${isOpen ? "active" : ""}`}>
+      {isOpen ? (
+        <AiOutlineClose onClick={() => setIsOpen(!isOpen)} />
+      ) : (
+        <AiOutlineMenu onClick={() => setIsOpen(!isOpen)} />
+      )}
       <div className="navbar-container container">
         <img src={logo} alt="Logo" className="logo" />
         <ul>

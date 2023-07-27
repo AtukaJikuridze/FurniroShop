@@ -14,9 +14,29 @@
         border-radius: 10px;
         height: 560px;
         transition: 0.2s;
+        object-fit: cover;
         cursor: pointer;
         &:hover {
           filter: brightness(80%);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section1 {
+    .section1-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .section1 {
+    .section1-cards {
+      .section1-card {
+        img {
+          height: 400px;
         }
       }
     }

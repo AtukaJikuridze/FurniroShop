@@ -1,4 +1,11 @@
 nav {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 999;
+  svg {
+    display: none;
+  }
   padding: 25px 0px;
   box-shadow: 0 4px 2px -2px rgba(111, 97, 97, 0.099);
   .navbar-container {
@@ -42,6 +49,44 @@ nav {
       gap: 30px;
       .icon {
         cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  nav {
+    background-color: #fffcfc;
+    transition: 0.4s;
+    &.active {
+      height: 200px;
+    }
+    height: 80px;
+    overflow: hidden;
+
+    .navbar-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+    svg {
+      display: block;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  nav {
+    &.active {
+      height: 370px;
+    }
+    .navbar-container {
+      ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
       }
     }
   }

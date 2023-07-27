@@ -10,4 +10,32 @@
 }
 .section3 .section3-main .s3-component {
   width: 33%;
+}
+
+@media screen and (max-width: 991px) {
+  .section3 .section3-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section3 .section3-main .s3-component {
+    width: 100%;
+  }
+  .section3 .section3-main .s3-component p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .section3 .section3-main .s3-component.section3-rightside .dots {
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .section3-main .s3-component .images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3 .section3-main .s3-component .images img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=Section3.css.map */

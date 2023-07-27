@@ -17,6 +17,8 @@
 .products-main .products .product img.product-image {
   width: 100%;
   height: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .products-main .products .product .product-info {
   padding: 10px;

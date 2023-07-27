@@ -1,5 +1,4 @@
 import "./Section1.css";
-import card1 from "../../assets/section1/card1.png";
 interface s1card {
   title: string;
   img: string;
